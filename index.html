@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abhishek — Student Portfolio. Programming, Mathematics, Technology." />
+  <title>Abhishek · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Cursor follower -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">A</span>
+        <span class="nav__logo-text">bhishek</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__menu" aria-label="Toggle menu" id="menuBtn">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HOME / HERO -->
+  <section id="home" class="hero">
+    <div class="hero__grid">
+      <div class="hero__content">
+        <p class="eyebrow"><span class="dot"></span> Portfolio · 2026</p>
+        <h1 class="hero__title">
+          Hi, I'm <em>Abhishek</em><span class="period">.</span>
+        </h1>
+        <p class="hero__intro">
+          I'm passionate about <strong>technology</strong>, <strong>programming</strong>, and <strong>mathematics</strong>, and I enjoy learning concepts in depth. Currently focused on Python, C, HTML, and Discrete Mathematics — while also working on self-improvement and fitness. A curious learner who likes exploring how things work and continuously building new skills.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View My Work <span>→</span></a>
+          <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+        </div>
+        <div class="hero__stats">
+          <div><b>10+</b><span>Certificates</span></div>
+          <div><b>5+</b><span>Projects</span></div>
+          <div><b>3+</b><span>Languages</span></div>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="photo-frame">
+          <div class="photo-frame__inner">
+            <img src="images/profile.jpg" alt="Abhishek" id="profileImg" />
+          </div>
+          <div class="photo-frame__tag">
+            <span class="blink"></span> Available for opportunities
+          </div>
+          <div class="photo-frame__sticker">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <defs>
+                <path id="circlePath" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0" />
+              </defs>
+              <text fill="currentColor" font-size="10" letter-spacing="2">
+                <textPath href="#circlePath">STUDENT · DEVELOPER · LEARNER · </textPath>
+              </text>
+              <circle cx="50" cy="50" r="6" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Python</span><span>·</span>
+        <span>C Programming</span><span>·</span>
+        <span>HTML &amp; CSS</span><span>·</span>
+        <span>JavaScript</span><span>·</span>
+        <span>Discrete Mathematics</span><span>·</span>
+        <span>Problem Solving</span><span>·</span>
+        <span>AI &amp; ML</span><span>·</span>
+        <span>Design Thinking</span><span>·</span>
+        <span>Python</span><span>·</span>
+        <span>C Programming</span><span>·</span>
+        <span>HTML &amp; CSS</span><span>·</span>
+        <span>JavaScript</span><span>·</span>
+        <span>Discrete Mathematics</span><span>·</span>
+        <span>Problem Solving</span><span>·</span>
+        <span>AI &amp; ML</span><span>·</span>
+        <span>Design Thinking</span><span>·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about reveal">
+    <div class="section__header">
+      <span class="section__num">01</span>
+      <h2 class="section__title">About <em>Me</em></h2>
+      <p class="section__sub">A short story of who I am and where I'm headed.</p>
+    </div>
+
+    <div class="about__grid">
+      <article class="card card--education">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-5 9 5-9 5-9-5z"/><path d="M7 10.5v5c2 1.5 8 1.5 10 0v-5"/><path d="M21 9v6"/></svg>
+        </div>
+        <h3>Education</h3>
+        <ul class="timeline">
+          <li>
+            <span class="timeline__year">Present</span>
+            <div>
+              <h4>Undergraduate Studies</h4>
+              <p>Building strong foundations in computer science, programming, and applied mathematics.</p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline__year">Earlier</span>
+            <div>
+              <h4>Higher Secondary</h4>
+              <p>Science stream with focus on mathematics and computer fundamentals.</p>
+            </div>
+          </li>
+        </ul>
+      </article>
+
+      <article class="card card--interests">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg>
+        </div>
+        <h3>Interests</h3>
+        <div class="tags">
+          <span>Programming</span>
+          <span>Mathematics</span>
+          <span>AI &amp; ML</span>
+          <span>Web Development</span>
+          <span>Problem Solving</span>
+          <span>Fitness</span>
+          <span>Self-improvement</span>
+          <span>Algorithms</span>
+        </div>
+      </article>
+
+      <article class="card card--goals">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>
+        </div>
+        <h3>Goals</h3>
+        <p class="card__lead">Where I'm aiming.</p>
+        <ul class="check-list">
+          <li>Master core CS subjects with depth, not just surface knowledge</li>
+          <li>Build real-world projects that solve meaningful problems</li>
+          <li>Contribute to open-source and learning communities</li>
+          <li>Grow into a thoughtful, well-rounded engineer</li>
+        </ul>
+      </article>
+
+      <article class="card card--strengths">
+        <div class="card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+        </div>
+        <h3>Strengths</h3>
+        <div class="strengths">
+          <div class="strength">
+            <div class="strength__head"><span>Curiosity</span><b>95%</b></div>
+            <div class="bar"><i style="--w:95%"></i></div>
+          </div>
+          <div class="strength">
+            <div class="strength__head"><span>Logical Thinking</span><b>90%</b></div>
+            <div class="bar"><i style="--w:90%"></i></div>
+          </div>
+          <div class="strength">
+            <div class="strength__head"><span>Consistency</span><b>85%</b></div>
+            <div class="bar"><i style="--w:85%"></i></div>
+          </div>
+          <div class="strength">
+            <div class="strength__head"><span>Quick Learning</span><b>92%</b></div>
+            <div class="bar"><i style="--w:92%"></i></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section achievements reveal">
+    <div class="section__header">
+      <span class="section__num">02</span>
+      <h2 class="section__title">Achievements <em>&amp; Events</em></h2>
+      <p class="section__sub">Milestones I'm proud of, with the stories behind them.</p>
+    </div>
+
+    <div class="achievement-list">
+      <article class="achievement">
+        <div class="achievement__date">2025</div>
+        <div class="achievement__body">
+          <h3>AI4A Program Completion</h3>
+          <p>Successfully completed the <em>AI for All</em> initiative — a foundational program exploring how Artificial Intelligence is reshaping industries, ethics, and everyday problem-solving.</p>
+          <span class="pill">Recognition</span>
+        </div>
+        <div class="achievement__arrow">→</div>
+      </article>
+
+      <article class="achievement">
+        <div class="achievement__date">2025</div>
+        <div class="achievement__body">
+          <h3>Design Thinking Workshop</h3>
+          <p>Participated in a multi-day Design Thinking sprint focused on empathy mapping, ideation, prototyping, and user testing — applied to a real-world challenge.</p>
+          <span class="pill">Workshop</span>
+        </div>
+        <div class="achievement__arrow">→</div>
+      </article>
+
+      <article class="achievement">
+        <div class="achievement__date">2024</div>
+        <div class="achievement__body">
+          <h3>ACE Program</h3>
+          <p>Completed the ACE (Accelerated Capability &amp; Excellence) skilling program, gaining structured exposure to professional skills, communication, and industry readiness.</p>
+          <span class="pill">Skilling</span>
+        </div>
+        <div class="achievement__arrow">→</div>
+      </article>
+
+      <article class="achievement">
+        <div class="achievement__date">2024</div>
+        <div class="achievement__body">
+          <h3>Cisco NetAcad Certification</h3>
+          <p>Earned certification through Cisco Networking Academy covering networking fundamentals, IP addressing, and core concepts of modern internet infrastructure.</p>
+          <span class="pill">Certification</span>
+        </div>
+        <div class="achievement__arrow">→</div>
+      </article>
+
+      <article class="achievement">
+        <div class="achievement__date">2026</div>
+        <div class="achievement__body">
+          <h3>Coursera — Discrete Mathematics &amp; Algorithms (UC San Diego)</h3>
+          <p>Completed multiple Coursera courses from UC San Diego &amp; HSE — <em>Mathematical Thinking in CS</em>, <em>Combinatorics &amp; Probability</em>, <em>Introduction to Graph Theory</em>, and the <em>Delivery Problem</em> applied project (Traveling Salesman optimization).</p>
+          <span class="pill">Online Course</span>
+        </div>
+        <div class="achievement__arrow">→</div>
+      </article>
+
+      <article class="achievement">
+        <div class="achievement__date">2026</div>
+        <div class="achievement__body">
+          <h3>Coursera — Revisiting Chemistry (MIT Vishwaprayag University)</h3>
+          <p>Preparatory course (ACEAS1201) covering essential chemistry foundations — building a strong base for engineering coursework.</p>
+          <span class="pill">Online Course</span>
+        </div>
+        <div class="achievement__arrow">→</div>
+      </article>
+
+      <article class="achievement">
+        <div class="achievement__date">2024</div>
+        <div class="achievement__body">
+          <h3>Yuva AI Certification</h3>
+          <p>Participated in the Yuva AI initiative — a youth-focused program introducing artificial intelligence concepts, responsible AI, and beginner-level ML workflows.</p>
+          <span class="pill">Certification</span>
+        </div>
+        <div class="achievement__arrow">→</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects reveal">
+    <div class="section__header">
+      <span class="section__num">03</span>
+      <h2 class="section__title">Selected <em>Projects</em></h2>
+      <p class="section__sub">Things I've built, designed, or contributed to.</p>
+    </div>
+
+    <div class="projects__grid">
+
+      <article class="project project--featured">
+        <div class="project__media">
+          <img src="images/proj-ai4a.svg" alt="AI4A project preview" />
+          <span class="project__chip">Featured</span>
+        </div>
+        <div class="project__info">
+          <h3>AI4A — AI for All</h3>
+          <p>An exploratory project under the AI for All initiative. Investigated how AI affects society, identified beginner-friendly problem areas, and built a small demo around natural-language understanding to make AI feel approachable for non-technical users.</p>
+          <div class="project__meta">
+            <span>Python</span><span>NLP</span><span>Streamlit</span>
+          </div>
+          <div class="project__links">
+            <a href="#" class="link">Live Demo →</a>
+            <a href="#" class="link">Source ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media">
+          <img src="images/proj-design.svg" alt="Design Thinking project preview" />
+        </div>
+        <div class="project__info">
+          <h3>Design Thinking — Campus Connect</h3>
+          <p>A user-centered prototype solving a real campus communication gap. Followed the full Design Thinking process: empathize, define, ideate, prototype, test. Resulted in a Figma prototype with user-validated flows.</p>
+          <div class="project__meta">
+            <span>Figma</span><span>UX Research</span><span>Prototyping</span>
+          </div>
+          <div class="project__links">
+            <a href="#" class="link">Case Study →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media">
+          <img src="images/proj-ace.svg" alt="ACE project preview" />
+        </div>
+        <div class="project__info">
+          <h3>ACE Capstone</h3>
+          <p>Final capstone under the ACE program — a small full-stack idea combining communication skills, problem framing, and a working tech prototype that showcased everything learned during the program.</p>
+          <div class="project__meta">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project__links">
+            <a href="#" class="link">View Project →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media">
+          <img src="images/proj-port.svg" alt="Portfolio website preview" />
+        </div>
+        <div class="project__info">
+          <h3>Personal Portfolio Website</h3>
+          <p>This site you're looking at — designed and built from scratch with semantic HTML, modern CSS (custom properties, grid, smooth animations), and vanilla JavaScript. Fully responsive.</p>
+          <div class="project__meta">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <div class="project__links">
+            <a href="#" class="link">Live ↗</a>
+            <a href="#" class="link">GitHub ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates" class="section certificates reveal">
+    <div class="section__header">
+      <span class="section__num">04</span>
+      <h2 class="section__title">Featured <em>Certificates</em></h2>
+      <p class="section__sub">Verifiable proof of the time and effort invested.</p>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert">
+        <div class="cert__img"><img src="images/cert-math-thinking.jpg" alt="Mathematical Thinking in Computer Science certificate"></div>
+        <div class="cert__meta">
+          <span class="cert__issuer">Coursera · UC San Diego</span>
+          <h3>Mathematical Thinking in Computer Science</h3>
+          <p>Core mathematical reasoning techniques used in CS — induction, invariants, proofs, and problem-solving patterns.</p>
+        </div>
+      </div>
+
+      <div class="cert">
+        <div class="cert__img"><img src="images/cert-combinatorics.jpg" alt="Combinatorics and Probability certificate"></div>
+        <div class="cert__meta">
+          <span class="cert__issuer">Coursera · UC San Diego</span>
+          <h3>Combinatorics and Probability</h3>
+          <p>Counting principles, permutations, probability theory, and random processes — the math behind algorithms and analysis.</p>
+        </div>
+      </div>
+
+      <div class="cert">
+        <div class="cert__img"><img src="images/cert-graph-theory.jpg" alt="Introduction to Graph Theory certificate"></div>
+        <div class="cert__meta">
+          <span class="cert__issuer">Coursera · UC San Diego</span>
+          <h3>Introduction to Graph Theory</h3>
+          <p>Graphs, trees, paths, connectivity, and classic graph algorithms — foundational for networks, optimization, and CS.</p>
+        </div>
+      </div>
+
+      <div class="cert">
+        <div class="cert__img"><img src="images/cert-delivery.jpg" alt="Delivery Problem certificate"></div>
+        <div class="cert__meta">
+          <span class="cert__issuer">Coursera · UC San Diego</span>
+          <h3>Delivery Problem</h3>
+          <p>An applied project tackling the Traveling Salesman Problem — algorithmic optimization for real-world delivery routes.</p>
+        </div>
+      </div>
+
+      <div class="cert">
+        <div class="cert__img"><img src="images/cert-chemistry.jpg" alt="Revisiting Chemistry certificate"></div>
+        <div class="cert__meta">
+          <span class="cert__issuer">Coursera · MIT Vishwaprayag University</span>
+          <h3>Revisiting Chemistry — ACEAS1201 Prep</h3>
+          <p>Preparatory course covering essential chemistry concepts — building a strong foundation for engineering coursework.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery reveal">
+    <div class="section__header">
+      <span class="section__num">05</span>
+      <h2 class="section__title">Gallery <em>&amp; Moments</em></h2>
+      <p class="section__sub">Photos, certificates, and event memories — all in one place.</p>
+    </div>
+
+    <div class="gallery__filters">
+      <button class="filter is-active" data-filter="all">All</button>
+      <button class="filter" data-filter="certificate">Certificates</button>
+      <button class="filter" data-filter="event">Events</button>
+      <button class="filter" data-filter="project">Projects</button>
+    </div>
+
+    <div class="gallery__grid" id="galleryGrid">
+      <figure class="g-item" data-cat="certificate"><img src="images/cert-math-thinking.jpg" alt="Mathematical Thinking"><figcaption>Mathematical Thinking in CS</figcaption></figure>
+      <figure class="g-item" data-cat="certificate"><img src="images/cert-combinatorics.jpg" alt="Combinatorics and Probability"><figcaption>Combinatorics &amp; Probability</figcaption></figure>
+      <figure class="g-item" data-cat="certificate"><img src="images/cert-graph-theory.jpg" alt="Introduction to Graph Theory"><figcaption>Graph Theory</figcaption></figure>
+      <figure class="g-item" data-cat="certificate"><img src="images/cert-delivery.jpg" alt="Delivery Problem"><figcaption>Delivery Problem (TSP)</figcaption></figure>
+      <figure class="g-item" data-cat="certificate"><img src="images/cert-chemistry.jpg" alt="Revisiting Chemistry"><figcaption>Revisiting Chemistry</figcaption></figure>
+      <figure class="g-item" data-cat="event"><img src="images/event-1.svg" alt="Workshop"><figcaption>Design Thinking Workshop</figcaption></figure>
+      <figure class="g-item" data-cat="event"><img src="images/event-2.svg" alt="Hackathon"><figcaption>AI4A Session</figcaption></figure>
+      <figure class="g-item" data-cat="event"><img src="images/event-3.svg" alt="Seminar"><figcaption>ACE Seminar</figcaption></figure>
+      <figure class="g-item" data-cat="project"><img src="images/proj-ai4a.svg" alt="AI4A project"><figcaption>AI4A Project</figcaption></figure>
+      <figure class="g-item" data-cat="project"><img src="images/proj-design.svg" alt="Design Thinking project"><figcaption>Campus Connect</figcaption></figure>
+      <figure class="g-item" data-cat="project"><img src="images/proj-ace.svg" alt="ACE project"><figcaption>ACE Capstone</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- BEYOND / EXTRA -->
+  <section class="section beyond reveal">
+    <div class="section__header">
+      <span class="section__num">06</span>
+      <h2 class="section__title">Beyond <em>the Resume</em></h2>
+      <p class="section__sub">A few things that don't fit elsewhere but say something real about me.</p>
+    </div>
+
+    <div class="beyond__grid">
+      <div class="beyond__card">
+        <span class="beyond__emoji">📚</span>
+        <h3>Lifelong Learner</h3>
+        <p>I read, watch, and tinker constantly — from algorithm walkthroughs to mathematics explainers and breakdowns of how systems are built.</p>
+      </div>
+      <div class="beyond__card">
+        <span class="beyond__emoji">💪</span>
+        <h3>Fitness Discipline</h3>
+        <p>Consistent workouts taught me what I bring to code: showing up, tracking progress, and trusting the long game.</p>
+      </div>
+      <div class="beyond__card">
+        <span class="beyond__emoji">🧩</span>
+        <h3>Problem Solver</h3>
+        <p>Whether it's a math proof, a buggy program, or a real-world challenge — I enjoy the puzzle of breaking things down.</p>
+      </div>
+      <div class="beyond__card">
+        <span class="beyond__emoji">🚀</span>
+        <h3>Builder Mindset</h3>
+        <p>I'd rather ship a rough v1 and improve it than wait for perfect. Learning happens in shipping, not in planning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact reveal">
+    <div class="contact__inner">
+      <span class="section__num">07</span>
+      <h2 class="contact__title">Let's <em>build</em><br>something together<span class="period">.</span></h2>
+      <p class="contact__sub">Open to internships, collaborations, and good conversations. Reach out — I usually reply within a day.</p>
+
+      <div class="contact__grid">
+        <a href="mailto:abhishek@example.com" class="contact__card">
+          <div class="contact__icon">✉</div>
+          <div>
+            <span>Email</span>
+            <strong>abhishek@example.com</strong>
+          </div>
+        </a>
+        <a href="tel:+910000000000" class="contact__card">
+          <div class="contact__icon">☎</div>
+          <div>
+            <span>Phone</span>
+            <strong>+91 00000 00000</strong>
+          </div>
+        </a>
+        <a href="#" class="contact__card" target="_blank" rel="noopener">
+          <div class="contact__icon">in</div>
+          <div>
+            <span>LinkedIn</span>
+            <strong>linkedin.com/in/abhishek</strong>
+          </div>
+        </a>
+        <a href="#" class="contact__card" target="_blank" rel="noopener">
+          <div class="contact__icon">{}</div>
+          <div>
+            <span>GitHub</span>
+            <strong>github.com/abhishek</strong>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <p class="footer__name">Abhishek<span class="period">.</span></p>
+        <p class="footer__line">Designed &amp; built with care · 2026</p>
+      </div>
+      <div class="footer__credits">
+        <p>Crafted with HTML · CSS · JavaScript</p>
+        <p>© <span id="year"></span> Abhishek — All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">×</button>
+    <img id="lightboxImg" src="" alt="">
+    <p id="lightboxCap"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

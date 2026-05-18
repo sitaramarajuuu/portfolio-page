@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice">
+  <rect width="600" height="600" fill="#ebe3d4"/>
+  <g transform="rotate(-6 300 300)">
+    <rect x="120" y="140" width="360" height="280" fill="#faf7f0" stroke="#1a1814" stroke-width="1.5"/>
+    <rect x="135" y="155" width="330" height="250" fill="none" stroke="#d94f2c" stroke-width="1"/>
+    <text x="300" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#d94f2c" font-style="italic">ACE</text>
+    <text x="300" y="320" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#1a1814">Abhishek</text>
+  </g>
+  <ellipse cx="180" cy="500" rx="50" ry="30" fill="#3a342a"/>
+  <ellipse cx="420" cy="500" rx="50" ry="30" fill="#3a342a"/>
+</svg>
