@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="500" fill="#faf7f0"/>
+  <g transform="rotate(-4 180 180)"><rect x="100" y="120" width="160" height="140" fill="#fde047" stroke="#1a1814" stroke-width="1.5"/><text x="118" y="160" font-family="Georgia, serif" font-size="14" fill="#1a1814">Empathize</text></g>
+  <g transform="rotate(3 380 220)"><rect x="300" y="160" width="160" height="140" fill="#f4a98e" stroke="#1a1814" stroke-width="1.5"/><text x="318" y="200" font-family="Georgia, serif" font-size="14" fill="#1a1814">Define</text></g>
+  <g transform="rotate(-2 580 160)"><rect x="500" y="100" width="160" height="140" fill="#a7f3d0" stroke="#1a1814" stroke-width="1.5"/><text x="518" y="140" font-family="Georgia, serif" font-size="14" fill="#1a1814">Ideate</text></g>
+  <g transform="rotate(2 240 380)"><rect x="160" y="320" width="160" height="140" fill="#bfdbfe" stroke="#1a1814" stroke-width="1.5"/><text x="178" y="360" font-family="Georgia, serif" font-size="14" fill="#1a1814">Prototype</text></g>
+  <g transform="rotate(-3 540 380)"><rect x="460" y="320" width="160" height="140" fill="#ddd6fe" stroke="#1a1814" stroke-width="1.5"/><text x="478" y="360" font-family="Georgia, serif" font-size="14" fill="#1a1814">Test</text></g>
+</svg>
