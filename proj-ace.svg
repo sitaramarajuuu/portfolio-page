@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
-  <defs><linearGradient id="ace" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ebe3d4"/><stop offset="100%" stop-color="#d8cfbe"/></linearGradient></defs>
-  <rect width="800" height="500" fill="url(#ace)"/>
-  <text x="100" y="380" font-family="Georgia, serif" font-size="380" font-weight="500" fill="#1a1814" font-style="italic">ACE</text>
-  <circle cx="700" cy="150" r="40" fill="#d94f2c"/>
-</svg>
